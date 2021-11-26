@@ -1,4 +1,12 @@
-# Demo
+# Chirp
+
+Chirp is a real-time Twitter clone with LiveView and Phoenix 1.6.
+
+This project is my version from the 'code along' with Chris McCord post: ["Build a real-time Twitter clone in 15 minutes with LiveView and Phoenix 1.6"](https://www.phoenixframework.org/blog/build-a-real-time-twitter-clone-in-15-minutes-with-live-view-and-phoenix-1-5)
+
+This repo is complete with everything up through the 'mix phx.server' command including the LiveView routes are in place. The "mix setup" takes care of both "mix ecto.create" and "mix ecto.migrate".
+
+## Usage
 
 To start your Phoenix server:
 
