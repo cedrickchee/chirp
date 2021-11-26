@@ -1,5 +1,22 @@
 /* This file is for your main application CSS */
+
 @import "./phoenix.css";
+@import "custom";
+
+/* Fontawesome 5 config */
+/* Based on: https://gist.github.com/ks2211/75af6cddc051f5e261a29fc25eed5789 */
+$fa-font-path: "@fortawesome/fontawesome-free/webfonts/";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "@fortawesome/fontawesome-free/scss/v4-shims";
+
+/*Tailwind config */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 
 /* Alerts and form errors used by phx.new */
 .alert {
